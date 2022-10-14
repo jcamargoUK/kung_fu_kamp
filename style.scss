@@ -5,10 +5,11 @@
   box-sizing: border-box;
 }
 
-
 body{
   width:100%;
   height: 100vh;
+ 
+  
 
   .top{
     display: flex;
@@ -22,21 +23,25 @@ body{
       width: 17%;
       margin-left: 40px;
       margin-top: 50px;
+      border-radius: 100%;
     }
 
     #mainH1Background{
       width: 77%;
-      background-color: red;
-      height: 50px;
+      background-color:#EB1D36;
+      height: 80px;
       margin-top: -66px;
-      border-radius: 30px;
+      border-radius: 40px;
       
 
       #mainH1{  
         text-align: center;
         margin: auto;
         color: #ffff;
-
+        font-family: 'Shojumaru', cursive;
+        text-transform: uppercase;
+        margin-top: 14px;
+        font-size: 40px;
       }
     }
     
@@ -47,25 +52,32 @@ body{
     width: 90%;
     margin: auto;
     display: flex;
-    justify-content: space-around;
-    margin-left: 200px;
+    justify-content: space-evenly;
+    margin-left: 164px;
     margin-top: -113px;
 
     .bnt{
-      background-color: red;
+      background-color: #EB1D36;
       padding: 15px;
       border: none;
-      width: 180px;
+      width: 250px;
       border-radius: 25px;
       color: #ffff;
-      gap: 50px;
+      gap: 40px;
       height: 50px;
       letter-spacing: 1.5px;
+      font-size: 20px;
+      cursor: pointer;
     }  
+    .bnt:hover{
+      background-color: #ffff;
+      color: #EB1D36;
+      transition-duration: 2s;
+    }
   }
 
   .bootcamperTestimony{
-    background-color: grey;
+    background-color: #CFD2CF;
     color: black;
     padding: 20px;
     border: none;
@@ -78,14 +90,17 @@ body{
   .testimony{
     display: flex;
     margin: auto;
-    margin-top: 100px;
-    width: 100%;
+    margin-top: 70px;
+    width: 98%;
     justify-content: space-evenly;
+    font-family: 'Fuzzy Bubbles', cursive;
+
   }
   .mainSection{
     display: flex;
     margin-top: 40px;
     margin-bottom: 100px;
+    padding-bottom: 200px;
 
     #mainImage{
       width:450px;
@@ -95,19 +110,20 @@ body{
 
   }
   .textAndInputBox{
-    width: 100%;
+    width: 60%;
     margin-left: 30px;
     
     p{
       width: 100%;
-      background-color: grey;
+      background-color: #CFD2CF;
       padding: 40px;
       border-radius: 20px;
       height: 180px;
       font-size: 18px;
       letter-spacing: 1.8px;
       text-align: center;
-    
+      font-family: 'Poppins', sans-serif;
+      font-weight: 500;
 
     }
     form{
@@ -120,7 +136,7 @@ body{
         color: #ffff;
       }
       label{
-        background-color: red;
+        background-color: #EB1D36;
         width: 200px;
         margin-bottom: 10px;
         padding: 6px;
@@ -140,7 +156,7 @@ body{
       
     }
     #applyNow{
-      background-color: red;
+      background-color: #EB1D36;
       border: none;
       padding: 10px;
       width: 100%;
@@ -148,10 +164,14 @@ body{
       color: #ffff;
       font-size: 20px;
       letter-spacing: 2px;
+      cursor: pointer;
     }
-
-  }
-  
+    #applyNow:hover{
+      background-color: #ffff;
+      color: #EB1D36;
+      transition-duration: 2s;
+    }
+  } 
 }
 
 

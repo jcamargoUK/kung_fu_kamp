@@ -19,18 +19,23 @@ body .top #yioYang {
   width: 17%;
   margin-left: 40px;
   margin-top: 50px;
+  border-radius: 100%;
 }
 body .top #mainH1Background {
   width: 77%;
-  background-color: red;
-  height: 50px;
+  background-color: #EB1D36;
+  height: 80px;
   margin-top: -66px;
-  border-radius: 30px;
+  border-radius: 40px;
 }
 body .top #mainH1Background #mainH1 {
   text-align: center;
   margin: auto;
   color: white;
+  font-family: "Shojumaru", cursive;
+  text-transform: uppercase;
+  margin-top: 14px;
+  font-size: 40px;
 }
 body .links {
   padding: 20px;
@@ -38,23 +43,30 @@ body .links {
   width: 90%;
   margin: auto;
   display: flex;
-  justify-content: space-around;
-  margin-left: 200px;
+  justify-content: space-evenly;
+  margin-left: 164px;
   margin-top: -113px;
 }
 body .links .bnt {
-  background-color: red;
+  background-color: #EB1D36;
   padding: 15px;
   border: none;
-  width: 180px;
+  width: 250px;
   border-radius: 25px;
   color: white;
-  gap: 50px;
+  gap: 40px;
   height: 50px;
   letter-spacing: 1.5px;
+  font-size: 20px;
+  cursor: pointer;
+}
+body .links .bnt:hover {
+  background-color: white;
+  color: #EB1D36;
+  transition-duration: 2s;
 }
 body .bootcamperTestimony {
-  background-color: grey;
+  background-color: #CFD2CF;
   color: black;
   padding: 20px;
   border: none;
@@ -66,14 +78,16 @@ body .bootcamperTestimony {
 body .testimony {
   display: flex;
   margin: auto;
-  margin-top: 100px;
-  width: 100%;
+  margin-top: 70px;
+  width: 98%;
   justify-content: space-evenly;
+  font-family: "Fuzzy Bubbles", cursive;
 }
 body .mainSection {
   display: flex;
   margin-top: 40px;
   margin-bottom: 100px;
+  padding-bottom: 200px;
 }
 body .mainSection #mainImage {
   width: 450px;
@@ -81,18 +95,20 @@ body .mainSection #mainImage {
   margin-left: 50px;
 }
 body .textAndInputBox {
-  width: 100%;
+  width: 60%;
   margin-left: 30px;
 }
 body .textAndInputBox p {
   width: 100%;
-  background-color: grey;
+  background-color: #CFD2CF;
   padding: 40px;
   border-radius: 20px;
   height: 180px;
   font-size: 18px;
   letter-spacing: 1.8px;
   text-align: center;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
 }
 body .textAndInputBox form {
   margin-top: 20px;
@@ -103,7 +119,7 @@ body .textAndInputBox form .info {
   color: white;
 }
 body .textAndInputBox form label {
-  background-color: red;
+  background-color: #EB1D36;
   width: 200px;
   margin-bottom: 10px;
   padding: 6px;
@@ -120,7 +136,7 @@ body .textAndInputBox form input {
   border-radius: 15px;
 }
 body .textAndInputBox #applyNow {
-  background-color: red;
+  background-color: #EB1D36;
   border: none;
   padding: 10px;
   width: 100%;
@@ -128,4 +144,10 @@ body .textAndInputBox #applyNow {
   color: white;
   font-size: 20px;
   letter-spacing: 2px;
+  cursor: pointer;
+}
+body .textAndInputBox #applyNow:hover {
+  background-color: white;
+  color: #EB1D36;
+  transition-duration: 2s;
 }/*# sourceMappingURL=style.css.map */
